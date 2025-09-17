@@ -1,0 +1,45 @@
+.scrollScale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.scrollScale:hover {
+  transform: scale(1.05);
+}
+.scrollScale:hover .circle {
+  border: 2px solid #275140;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  border: 2px solid #bbd5bb;
+  padding: 2px;
+  outline: 3px solid transparent;
+}
+
+.circle img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.labelWrapper {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 14px;
+  color: #275140;
+  font-family: "Raleway", sans-serif;
+}

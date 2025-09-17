@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,300,500,700");
+
+.OrderHead {
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 15px;
+    color: #72a172;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+.OrderHead span {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #999999;
+}
+
+.containerActive {
+
+    background: #d5e5d540;
+    border-radius: 0px 18px 18px 0px;
+    padding: 16px;
+    /* max-width: 700px; */
+    border-left: 2px solid #b2d5b2;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+}
+
+.containerInActive {
+    
+    background: #f1f1f1;
+    border-radius: 0px 18px 18px 0px;
+    padding: 16px;
+    /* max-width: 700px; */
+    border-left: 2px solid #ccc;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+}
+
+.left {
+    flex: 1;
+}
+
+.status {
+    font-size: 14px;
+    color: #4caf50;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.containerInActive .status {
+    font-size: 14px;
+    color: #8b8b8b;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: #275140;
+}
+
+.title span {
+    font-family: "Poppins", sans-serif;
+}
+
+.category {
+    font-size: 13px;
+    color: #94815e;
+    margin: 2px 0 0 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trackBtn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.OrderAgain {
+    background: #275140;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.secondaryBtn {
+    border: 1px solid #d1d5db;
+    background: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.linkBtn {
+    border: none;
+    background: none;
+    color: #6e6a6a;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px 8px;
+    background: #dddddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.active {
+    background: #d5e5d5a2;
+    color: #275140;
+    border-color: #a7c1a7;
+    font-weight: 600;
+}
+
+.orderId {
+    font-size: 13px;
+    color: #275140;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.orderId span {
+    font-family: "Poppins", sans-serif;
+    text-transform: none;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

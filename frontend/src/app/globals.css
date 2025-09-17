@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+}
