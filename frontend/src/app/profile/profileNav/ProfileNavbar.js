@@ -31,7 +31,7 @@ export default function ProfileNavbar() {
     {
       icon: <RiHome2Line />,
       navText: "Manage addresses",
-      href: "/profile/address"
+      href: "/profile/manageaddress"
     },
     {
       icon: <IoIosLogOut />,

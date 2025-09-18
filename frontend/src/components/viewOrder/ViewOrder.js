@@ -9,9 +9,9 @@ export default function ViewOrder() {
 
             <div className={Styles.containerActive}>
                 {/* Left Section */}
-                <div className='flex justify-between items-center'>
-                    <p className={Styles.status}>● On the way</p>
+                <div className='flex justify-start items-center gap-3'>
                     <p className={Styles.orderId}>Order ID : <span>#B6CT3</span></p>
+                    <p className={Styles.status}><span>● </span>On the way</p>
                 </div>
                 <div className={Styles.mainContainer}>
                     <div className={Styles.left}>
@@ -41,8 +41,7 @@ export default function ViewOrder() {
                             </div>
                         </div>
                     </div>
-
-                    {/* Right Section */}
+                    
                     <div className={Styles.right}>
                         <button className={Styles.trackBtn}>Track order</button>
                         <button className={Styles.secondaryBtn}>View order details</button>
@@ -56,9 +55,9 @@ export default function ViewOrder() {
 
 
             <div className={Styles.containerInActive}>
-                <div className='flex justify-between items-center'>
-                    <p className={Styles.status}>● Delivered</p>
+                <div className='flex justify-start items-center gap-3'>
                     <p className={Styles.orderId}>Order ID : <span>#B6CT3</span></p>
+                    <p className={Styles.status}><span>● </span>Delivered</p>
                 </div>
                 <div className={Styles.mainContainer}>
                     <div className={Styles.left}>

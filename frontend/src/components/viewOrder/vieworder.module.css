@@ -27,7 +27,7 @@
 }
 
 .containerInActive {
-    
+
     background: #f1f1f1;
     border-radius: 0px 18px 18px 0px;
     padding: 16px;
@@ -42,17 +42,24 @@
 }
 
 .status {
-    font-size: 14px;
+    font-size: 12px;
     color: #4caf50;
     font-weight: 500;
-    margin-bottom: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .containerInActive .status {
-    font-size: 14px;
+    font-size: 12px;
     color: #8b8b8b;
     font-weight: 500;
-    margin-bottom: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .card {
