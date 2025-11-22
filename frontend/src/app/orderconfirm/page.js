@@ -2,18 +2,14 @@ import Link from 'next/link';
 import Styles from './orderConfirm.module.css'
 
 export default function Page() {
-    
     return (
         <div className={Styles.confirmation}>
-            {/* <div className={Styles.confirmWrapper}>
-                <img src="/images/confirm.png" alt="Success" />
-            </div> */}
             <svg
                 width="115px"
                 height="115px"
                 viewBox="0 0 133 133"
                 xmlns="http://www.w3.org/2000/svg"
-                style={{fill:"none"}}
+                style={{ fill: "none" }}
             >
                 <g className={Styles.checkGroup}>
                     <circle fill="#07b481" cx="66.5" cy="66.5" r="54.5" />
@@ -40,9 +36,11 @@ export default function Page() {
                     />
                 </g>
             </svg>
+
             <h2 className={Styles.thankyou}>Thank you for your purchase</h2>
+
             <p className={Styles.info}>
-                We've received your order and it will ship in 5-7 business days. <br />
+                We&apos;ve received your order and it will ship in 5-7 business days. <br />
                 Your order number is <strong>#B6CT3</strong>
             </p>
 
@@ -68,15 +66,12 @@ export default function Page() {
                         <td className={Styles.price}>₹ 550</td>
                     </tr>
 
-
-
                     <tr className={Styles.orderTotal}>
                         <td colSpan="2">Total</td>
                         <td>₹ 550</td>
                     </tr>
                 </tbody>
             </table>
-
 
             <div className={Styles.savingsBox}>
                 <p className={Styles.savedPrice}>
@@ -87,7 +82,7 @@ export default function Page() {
                 </p>
             </div>
 
-            <Link href={'/'} className={Styles.homeBtn}>Back to Home</Link>
+            <Link href="/" className={Styles.homeBtn}>Back to Home</Link>
         </div>
     );
 }
